@@ -1,6 +1,10 @@
 <hello name="{{ name }}"></hello>
 <p>
-  Start editing to see some magic happen :)
+  {{getInfo()}}
 </p>
-<br>
-  Daj spokój Smyku:)( test01 )
+<p>
+  Counter: {{getCounter()}}
+<p>
+  <button (click) = "incrementCounter()">
+    Counter
+</button>
